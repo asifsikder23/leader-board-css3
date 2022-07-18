@@ -4,7 +4,7 @@
 /* common style */
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: #ffffff;
+    background-color: #d4d4d4;
 }
 main{
     display: flex;
@@ -12,7 +12,7 @@ main{
     align-items: center;
 }
 .container{
-    background-color: #ffffff;
+    background-color: #f3f3f3;
     width: 870px;
     padding: 30px;
     border-radius: 5px;
@@ -90,6 +90,7 @@ hr{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-column-gap: 24px;
+    justify-content: center;
 }
 .course .course-banner img{
     width: 224px;
